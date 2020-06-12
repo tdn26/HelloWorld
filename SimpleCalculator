@@ -1,0 +1,5 @@
+virtual class Evaluator
+{
+}
+
+virtual double Eval(double left, double right) = 0
