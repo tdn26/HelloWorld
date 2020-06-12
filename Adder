@@ -1,0 +1,10 @@
+#include "SimpleCalculator.h"
+
+class Adder : SimpleCalculator
+{
+}
+
+double Eval ( double left, double right)
+{
+  return left + right;
+}

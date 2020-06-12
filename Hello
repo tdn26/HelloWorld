@@ -1,0 +1,15 @@
+#include <iostream>
+#include "SimpleCalculator.h"
+#include "Adder.h"
+using std;
+int main()
+{
+  cout <<"Hello" <<endl;
+  
+  string expression = "1+2";
+   Adder adder = new Adder();
+  double A = 1;
+  double B = 2;
+  double C = adder.Eval(A,B);
+  
+}
